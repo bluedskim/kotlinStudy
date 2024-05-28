@@ -1,6 +1,6 @@
 package org.kotlinlang.play
 
-fun printMessage(message: String): Unit {                               // 1
+fun printMessage(message: String) {                               // 1
     println(message)
 }
 
