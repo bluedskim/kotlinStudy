@@ -3,6 +3,7 @@ package org.kotlinlang.play
 fun main() {
 
     infix fun Int.times(str: String) = str.repeat(this)        // 1
+    // infix function은 operator처럼 쓸 수 있다
     println(2 times "Bye ")                                    // 2
 
     val pair = "Ferrari" to "Katrina"                          // 3
